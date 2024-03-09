@@ -1,0 +1,45 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(10, 20px);
+    grid-template-rows: repeat(10, 20px);
+    gap: 2px;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 200px;
+}
+.first{
+    background-color: rgb(216, 17, 17);
+    grid-area: 2/2/7/6;
+}
+.two{
+    background-color:  rgb(250, 235, 215);
+    grid-area: 2/6/-5/11;
+}
+.three{
+    background-color:  rgb(250, 235, 215);
+    grid-area: 7/2/10/-6;
+}
+.four{
+    background-color: rgb(250, 235, 215);
+    grid-area: 7/6/10/10;
+}
+.five{
+    background-color: rgb(250, 235, 215);
+    grid-area: 9/10/11/11;
+}
+.six{
+    background-color: yellow;
+    grid-area: 10/6/11/8;
+    
+}
+.seven{
+    background-color: rgb(23, 84, 138);
+    grid-area: 7/10/9/11;
+}
+.eight{
+    background-color: rgb(250, 235, 215);
+    grid-area: 10/2/11/6;
+}
